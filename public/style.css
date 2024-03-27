@@ -1,0 +1,64 @@
+/* 
+.item{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+}
+
+li:first-child .btnGroup .upBtn,
+li:last-child .btnGroup .downBtn{
+    display: none;
+} */
+
+
+/* ---------------------------------practice--------------------------------------------------- */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700 */
+
+
+body
+{
+    background-color: #ADD8E6;
+}
+.item
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    padding: 9px 50px;
+    width: 40%;
+    border: 1px solid black;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 50px;
+}
+.Submitbtn{
+
+border: none;
+border-radius: 20px;
+padding: 9px 30px;
+font-size: large;
+
+}
+span{
+    font-size: large;
+}
+li:first-child .inc,
+li:last-child .dec{
+    /* display: disabled; */
+    /* pointer-events: none; */
+    opacity: 0.5; 
+    /* cursor: not-allowed; */
+} 
+
